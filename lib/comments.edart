@@ -1,0 +1,15 @@
+ if (response["success" == true]) {
+          print("record added"); 
+          name.text = "";
+          password.text = "";
+          email.text = "";
+        } else {
+          print('error');
+        }
+
+
+ if (response["success" == "true"]) {
+        print("record deleted");
+      } else {
+        print('error');
+      }
